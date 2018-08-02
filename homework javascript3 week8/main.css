@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  #container2{
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      width: 100%;
+  }
+  .fullResult{
+      float: left;
+      justify-content: flex-start;
+      /* border: 5px solid grey; */
+      width: 35%;
+      height: auto;
+      padding: 5px ;
+      
+  }
+  .usersDetail{
+      float: right;
+      justify-content: flex-end;
+      width: 60%;
+      height: auto;
+      padding: 15px;
+  }
+  
