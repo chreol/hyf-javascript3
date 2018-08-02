@@ -1,0 +1,76 @@
+@font-face{
+    font-family: sketch;
+    src: url("./CabinSketch-Regular.ttf");
+}
+body{
+    background-color: black;
+
+}
+h6{
+    font-family: sketch;
+    color: white;
+    font-size: 3rem;
+}
+
+pre, 
+code{
+    font-family: monospace;
+
+}
+pre>code{
+    display: block;
+    font-size: 1rem;
+    word-wrap: normal;
+    height: 200px;
+    overflow-y: auto;
+}
+
+code,
+input,
+button {
+    background-color: rgb(42, 32, 32);
+    color: white;
+    padding:  2px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+input,
+button {
+    font-size: 1.5rem;
+}
+
+button {
+    font-family: sketch;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    padding: 25px 100px 50px 100px;
+    display: grid;
+}
+.arena {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.controller {
+    display: flex;
+    flex-direction: row;
+
+}
+
+input {
+    flex-grow: 2;
+}
+
+button {
+    flex-grow: 1;
+}
+button:active {
+    position: relative;
+    top: 2px;
+}
